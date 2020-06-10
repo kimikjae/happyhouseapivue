@@ -33,7 +33,7 @@
          reply_userid as replyUserid
        from
            qna_board
-       where qna_no = #{qna_no}
+       where qna_no = #{qnaNo}
    </select>
 
    <!-- 게시글 등록 -->
@@ -43,26 +43,26 @@
          qna_content,
          qna_userid
       ) values (
-         #{qna_title}, 
-         #{qna_content},
-         #{qna_userid}
+         #{qnaTitle}, 
+         #{qnaContent},
+         #{qnaUserid}
       )
    </insert>
    
    <!-- 게시글 수정 -->
    <update id="updateQnA" parameterType="qna">
       update qna_board 
-         set qna_title = #{qna_title}, 
-               qna_content = #{qna_content}, 
-               qna_userid = #{qna_userid}
-       where qna_no = #{qna_no}
+         set qna_title = #{qnaTitle}, 
+               qna_content = #{qnaContent}, 
+               qna_userid = #{qnaUserid}
+       where qna_no = #{qnaNo}
    </update>
 
    <!-- 게시글 삭제 -->
    <delete id="deleteQnA" parameterType="int">
       delete 
         from qna_board 
-       where qna_no = #{qna_no}
+       where qna_no = #{qnaNo}
    </delete>
 
 </mapper>
