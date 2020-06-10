@@ -46,15 +46,6 @@ public class QnAController {
 		return new ResponseEntity<QnA>(qnaService.detailQnA(no), HttpStatus.OK);
 	}
 
-//    @ApiOperation(value = "새로운 게시글 정보를 입력한다. 그리고 DB입력 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
-//	@PostMapping
-//	public ResponseEntity<String> writeBoard(@RequestBody QnA qna) {
-//		logger.debug("writeBoard - 호출");
-//		if (qnaService.writeQnA(qna)) {
-//			return new ResponseEntity<String>("success", HttpStatus.OK);
-//		}
-//		return new ResponseEntity<String>("fail", HttpStatus.NO_CONTENT);
-//	}
     @ApiOperation(value = "새로운 게시글 정보를 입력한다. 그리고 DB입력 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
 	@PostMapping
 	public ResponseEntity<String> writeBoard(@RequestBody QnA qna) {
