@@ -12,3 +12,305 @@
 [2m2020-06-10 12:49:32.379[0;39m [32mDEBUG[0;39m [35m3036[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
 [2m2020-06-10 12:56:08.304[0;39m [32m INFO[0;39m [35m3036[0;39m [2m---[0;39m [2m[n(17)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
 [2m2020-06-10 12:56:08.328[0;39m [32m INFO[0;39m [35m3036[0;39m [2m---[0;39m [2m[n(17)-127.0.0.1][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 14:52:19.881[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-10 14:52:19.884[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-10 14:52:21.289[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$31b9c6d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 14:52:21.333[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 14:52:21.704[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 14:52:21.851[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1967 ms
+[2m2020-06-10 14:52:22.677[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 14:52:22.715[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 14:52:23.120[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 14:52:40.876[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-10 14:52:40.883[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 7 ms
+[2m2020-06-10 14:53:37.671[0;39m [32mDEBUG[0;39m [35m21968[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 14:53:57.722[0;39m [32mDEBUG[0;39m [35m21968[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 15:15:18.664[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[n(32)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2020-06-10 15:15:18.671[0;39m [32m INFO[0;39m [35m21968[0;39m [2m---[0;39m [2m[n(32)-127.0.0.1][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 15:15:26.298[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-10 15:15:26.301[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-10 15:15:27.695[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c9d8e079] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 15:15:27.736[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 15:15:28.035[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 15:15:28.153[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1851 ms
+[2m2020-06-10 15:15:28.875[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 15:15:28.923[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 15:15:29.328[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 15:15:36.481[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-10 15:15:36.490[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 8 ms
+[2m2020-06-10 15:15:36.513[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:17.405[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:18.174[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:18.613[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:19.796[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:19.950[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:20.113[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:20.302[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:20.476[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:20.692[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:20.875[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:21.062[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:21.253[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:21.424[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:21.593[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:39.268[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:39.904[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:40.124[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:40.292[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:40.474[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:40.647[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:40.824[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:40.987[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:17:41.168[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:18:40.426[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:41.066[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:41.597[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:41.780[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:41.941[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:42.115[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:42.281[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:42.453[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:42.639[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:42.801[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:19:45.385[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:21:58.313[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:21:58.771[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:21:58.949[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:21:59.122[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:21:59.291[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:21:59.468[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:25:00.200[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:25:13.863[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:25:27.127[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:26:39.409[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:27:39.842[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:27:41.006[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:28:27.269[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:28:28.303[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:28:44.229[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:29:42.610[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:29:44.722[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:33:09.777[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:33:14.048[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:33:21.001[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:34:05.072[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:34:49.126[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 15:34:58.253[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 15:35:07.524[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 15:35:08.471[0;39m [33m WARN[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[2m2020-06-10 15:35:10.653[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:35:40.007[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:35:40.835[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 15:35:41.574[0;39m [33m WARN[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "null"]
+[2m2020-06-10 15:35:48.817[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:36:22.358[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 15:36:32.035[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m deleteBoard - 호출
+[2m2020-06-10 15:36:33.575[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:38:17.557[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m writeBoard - 호출
+[2m2020-06-10 15:38:17.572[0;39m [31mERROR[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/happyhouse] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'qna_title' in 'class com.ssafy.happyhouse.dto.QnA'] with root cause
+
+org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'qna_title' in 'class com.ssafy.happyhouse.dto.QnA'
+	at org.apache.ibatis.reflection.Reflector.getGetInvoker(Reflector.java:421)
+	at org.apache.ibatis.reflection.MetaClass.getGetInvoker(MetaClass.java:164)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.getBeanProperty(BeanWrapper.java:162)
+	at org.apache.ibatis.reflection.wrapper.BeanWrapper.get(BeanWrapper.java:49)
+	at org.apache.ibatis.reflection.MetaObject.getValue(MetaObject.java:122)
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:79)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:93)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy85.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:57)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy86.insertQnA(Unknown Source)
+	at com.ssafy.happyhouse.service.QnAServiceImpl.writeQnA(QnAServiceImpl.java:30)
+	at com.ssafy.happyhouse.service.QnAServiceImpl$$FastClassBySpringCGLIB$$477d47b1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.ssafy.happyhouse.service.QnAServiceImpl$$EnhancerBySpringCGLIB$$5eecc955.writeQnA(<generated>)
+	at com.ssafy.happyhouse.controller.QnAController.writeBoard(QnAController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+[2m2020-06-10 15:54:29.609[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[       Thread-6][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 15:54:30.925[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c9d8e079] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 15:54:30.927[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 15:54:31.076[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 15:54:31.104[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 703 ms
+[2m2020-06-10 15:54:31.322[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 15:54:31.333[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 15:54:31.436[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 15:54:31.440[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-10 15:59:23.007[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-10 15:59:23.011[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 3 ms
+[2m2020-06-10 15:59:23.014[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 15:59:24.485[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 15:59:27.808[0;39m [32mDEBUG[0;39m [35m4408[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 15:59:44.565[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[n(55)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2020-06-10 15:59:44.568[0;39m [32m INFO[0;39m [35m4408[0;39m [2m---[0;39m [2m[n(55)-127.0.0.1][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:00:21.941[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-10 16:00:21.943[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-10 16:00:23.085[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a1883478] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 16:00:23.129[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 16:00:23.429[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 16:00:23.543[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1599 ms
+[2m2020-06-10 16:00:24.214[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:00:24.261[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 16:00:24.771[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 16:00:57.557[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-10 16:00:57.566[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 9 ms
+[2m2020-06-10 16:00:57.610[0;39m [32mDEBUG[0;39m [35m24192[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:00:59.071[0;39m [32mDEBUG[0;39m [35m24192[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:01:28.283[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[on(8)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2020-06-10 16:01:28.287[0;39m [32m INFO[0;39m [35m24192[0;39m [2m---[0;39m [2m[on(8)-127.0.0.1][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:02:11.520[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-10 16:02:11.523[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-10 16:02:12.988[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$53f8e9a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 16:02:13.035[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 16:02:13.370[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 16:02:13.479[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1955 ms
+[2m2020-06-10 16:02:14.229[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:02:14.266[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 16:02:14.610[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 16:02:40.469[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-10 16:02:40.483[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 12 ms
+[2m2020-06-10 16:02:40.550[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:02:42.028[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:02:43.182[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:02:44.040[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:02:44.467[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:02:44.871[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:04:11.148[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:04:14.702[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:04:15.612[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:04:17.017[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:04:19.949[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m updateBoard - 호출
+[2m2020-06-10 16:04:19.949[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m QnA [qnaNo=1, qnaTitle=관통 테스트1, qnaContent=뷰로 만드는 질문게시판, qnaUserid=ssafy, qnaDatetime=null, replyContent=null, replyDatetime=null, replyUserid=null]
+[2m2020-06-10 16:04:21.166[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:04:22.205[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:04:23.921[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:04:25.983[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m updateBoard - 호출
+[2m2020-06-10 16:04:25.984[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m QnA [qnaNo=1, qnaTitle=관통 테스트, qnaContent=뷰로 만드는 질문게시판, qnaUserid=ssafy, qnaDatetime=null, replyContent=null, replyDatetime=null, replyUserid=null]
+[2m2020-06-10 16:04:27.080[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:04:42.019[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:07:06.970[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:07:11.897[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:08:11.378[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:11:22.220[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:11:28.313[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:15:26.872[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:15:47.604[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:15:49.075[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:15:50.087[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:17:09.870[0;39m [32mDEBUG[0;39m [35m6012[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:33:09.069[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[       Thread-6][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:33:10.565[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$53f8e9a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 16:33:10.568[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 16:33:10.726[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 16:33:10.763[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 707 ms
+[2m2020-06-10 16:33:10.985[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:33:10.993[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 16:33:11.102[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 16:33:11.105[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-10 16:33:12.605[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[n(43)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2020-06-10 16:33:12.609[0;39m [32m INFO[0;39m [35m6012[0;39m [2m---[0;39m [2m[n(43)-127.0.0.1][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:46:01.498[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-10 16:46:01.501[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-10 16:46:02.875[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$faa52875] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 16:46:02.957[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 16:46:03.394[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 16:46:03.566[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2065 ms
+[2m2020-06-10 16:46:04.919[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:46:04.990[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 16:46:05.411[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 16:46:21.846[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[on(7)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2020-06-10 16:46:21.853[0;39m [32m INFO[0;39m [35m24112[0;39m [2m---[0;39m [2m[on(7)-127.0.0.1][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:46:29.313[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-10 16:46:29.317[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-10 16:46:30.524[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3fb45a48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 16:46:30.552[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 16:46:30.863[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 16:46:30.982[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1665 ms
+[2m2020-06-10 16:46:31.652[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:46:31.693[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 16:46:32.065[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 16:49:57.105[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[n(12)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2020-06-10 16:49:57.114[0;39m [32m INFO[0;39m [35m23264[0;39m [2m---[0;39m [2m[n(12)-127.0.0.1][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:50:12.575[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-10 16:50:12.578[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-10 16:50:13.900[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$656c577c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-06-10 16:50:13.933[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2020-06-10 16:50:14.258[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-10 16:50:14.399[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1820 ms
+[2m2020-06-10 16:50:15.242[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-10 16:50:15.298[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-10 16:50:15.774[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2020-06-10 16:51:58.278[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-10 16:51:58.284[0;39m [32m INFO[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 6 ms
+[2m2020-06-10 16:51:58.316[0;39m [32mDEBUG[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:52:06.597[0;39m [32mDEBUG[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:52:07.652[0;39m [32mDEBUG[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:52:45.973[0;39m [32mDEBUG[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m writeBoard - 호출
+[2m2020-06-10 16:52:47.314[0;39m [32mDEBUG[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:52:48.631[0;39m [32mDEBUG[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailBoard - 호출
+[2m2020-06-10 16:52:50.464[0;39m [32mDEBUG[0;39m [35m2100[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
+[2m2020-06-10 16:53:04.689[0;39m [32mDEBUG[0;39m [35m2100[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA- 호출
