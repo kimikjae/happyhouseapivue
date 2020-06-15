@@ -32,21 +32,21 @@ public class QnAController {
 	@Autowired
 	private QnAService qnaService;
 
-    @ApiOperation(value = "모든 질문게시판 정보를 반환한다.", response = List.class)
+	@ApiOperation(value = "모든 질문게시판 정보를 반환한다.", response = List.class)
 	@GetMapping
 	public ResponseEntity<List<QnA>> retrieveQnA() throws Exception {
 		logger.debug("retrieveQnA- 호출");
 		return new ResponseEntity<List<QnA>>(qnaService.retrieveQnA(), HttpStatus.OK);
 	}
 
-    @ApiOperation(value = "글번호에 해당하는 게시글의 정보를 반환한다.", response = QnA.class)    
+	@ApiOperation(value = "글번호에 해당하는 게시글의 정보를 반환한다.", response = QnA.class)
 	@GetMapping("{no}")
 	public ResponseEntity<QnA> detailBoard(@PathVariable int no) {
 		logger.debug("detailBoard - 호출");
 		return new ResponseEntity<QnA>(qnaService.detailQnA(no), HttpStatus.OK);
 	}
 
-    @ApiOperation(value = "새로운 게시글 정보를 입력한다. 그리고 DB입력 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
+	@ApiOperation(value = "새로운 게시글 정보를 입력한다. 그리고 DB입력 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
 	@PostMapping
 	public ResponseEntity<String> writeBoard(@RequestBody QnA qna) {
 		logger.debug("writeBoard - 호출");
@@ -55,19 +55,20 @@ public class QnAController {
 		}
 		return new ResponseEntity<String>("fail", HttpStatus.NO_CONTENT);
 	}
-    @ApiOperation(value = "글번호에 해당하는 게시글의 정보를 수정한다. 그리고 DB수정 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
+
+	@ApiOperation(value = "글번호에 해당하는 게시글의 정보를 수정한다. 그리고 DB수정 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
 	@PutMapping("{no}")
 	public ResponseEntity<String> updateBoard(@RequestBody QnA qna) {
 		logger.debug("updateBoard - 호출");
 		logger.debug("" + qna);
-		
+
 		if (qnaService.updateQnA(qna)) {
 			return new ResponseEntity<String>("success", HttpStatus.OK);
 		}
 		return new ResponseEntity<String>("fail", HttpStatus.NO_CONTENT);
 	}
 
-    @ApiOperation(value = "글번호에 해당하는 게시글의 정보를 삭제한다. 그리고 DB삭제 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
+	@ApiOperation(value = "글번호에 해당하는 게시글의 정보를 삭제한다. 그리고 DB삭제 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
 	@DeleteMapping("{no}")
 	public ResponseEntity<String> deleteBoard(@PathVariable int no) {
 		logger.debug("deleteBoard - 호출");
@@ -76,4 +77,21 @@ public class QnAController {
 		}
 		return new ResponseEntity<String>("fail", HttpStatus.NO_CONTENT);
 	}
+
+	@ApiOperation(value = "글번호에 해당하는 게시글의 정보를 수정한다. 그리고 DB수정 성공여부에 따라 'success' 또는 'fail' 문자열을 반환한다.", response = String.class)
+	@PutMapping("/reply/{no}")
+	public ResponseEntity<String> insertreply(@RequestBody QnA qna) {
+		logger.debug("updatereply - 호출");
+		logger.debug("" + qna);
+		if(!qna.getReplyUserid().equals("ssafy")) {
+			return new ResponseEntity<String>("cant access", HttpStatus.NO_CONTENT);
+		}
+		else {
+			if (qnaService.insertReply(qna)) {
+				return new ResponseEntity<String>("success", HttpStatus.OK);
+			}
+			return new ResponseEntity<String>("fail", HttpStatus.NO_CONTENT);
+		}
+	}
+
 }

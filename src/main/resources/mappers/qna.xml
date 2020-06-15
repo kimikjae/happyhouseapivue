@@ -64,5 +64,17 @@
         from qna_board 
        where qna_no = #{qnaNo}
    </delete>
+   
+   
+   <!-- 응답 글 등록 -->
+      <update id="insertReply" parameterType="qna">
+      update qna_board 
+         set reply_content = #{replyContent}, 
+               reply_userid = #{replyUserid}, 
+               reply_datetime = #{replyDatetime}
+       where qna_no = #{qnaNo}
+   </update>
+   
+   
 
 </mapper>

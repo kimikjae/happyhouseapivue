@@ -10,4 +10,5 @@ public interface QnAService {
 	public boolean writeQnA(QnA qna);
 	public boolean updateQnA(QnA qna);
 	public boolean deleteQnA(int no);
+	public boolean insertReply(QnA qna);
 }

@@ -42,4 +42,9 @@ public class QnAServiceImpl implements QnAService{
 		return dao.deleteQnA(no)==1;
 	}
 
+	@Override
+	public boolean insertReply(QnA qna) {
+		return dao.insertReply(qna)==1;
+	}
+
 }

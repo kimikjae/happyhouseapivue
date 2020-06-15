@@ -13,4 +13,5 @@ public interface QnADAO {
 	public int insertQnA(QnA qna);
 	public int updateQnA(QnA qna);
 	public int deleteQnA(int no);
+	public int insertReply(QnA qna);
 }
